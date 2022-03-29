@@ -1,7 +1,15 @@
+import Topbar from "./components/topbar/Topbar";
+import Sidebar from "./components/sidebar/Sidebar";
+import "./app.css";
+
 function App() {
   return (
-    <div>
-      TEST입 니 다! <br /> 폰트가 다른것같아
+    <div className="App">
+      <Topbar />
+      <div className="container">
+        <Sidebar />
+        <div className="others">other page</div>
+      </div>
     </div>
   );
 }
