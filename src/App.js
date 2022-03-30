@@ -1,6 +1,6 @@
 import Topbar from "./components/topbar/Topbar";
 import Sidebar from "./components/sidebar/Sidebar";
-import Home from "./pages/Home";
+import Home from "./pages/home/Home";
 import "./app.css";
 
 function App() {
