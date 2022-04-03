@@ -80,22 +80,4 @@ export const userRows = [
     status: "active",
     transaction: "$120.00",
   },
-  {
-    id: 10,
-    username: "Jusifer",
-    avatar:
-      "https://images.pexels.com/photos/810775/pexels-photo-810775.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
-    email: "jusifer@gmail.com",
-    status: "active",
-    transaction: "$120.00",
-  },
-  {
-    id: 11,
-    username: "Tomlim",
-    avatar:
-      "https://images.pexels.com/photos/1898555/pexels-photo-1898555.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
-    email: "tomlim@gmail.com",
-    status: "active",
-    transaction: "$120.00",
-  },
 ];
