@@ -4,6 +4,7 @@ import HomeWorkIcon from "@mui/icons-material/HomeWork";
 import TrendingUpIcon from "@mui/icons-material/TrendingUp";
 import MonetizationOnIcon from "@mui/icons-material/MonetizationOn";
 import PersonOutlineIcon from "@mui/icons-material/PersonOutline";
+import StorefrontIcon from "@mui/icons-material/Storefront";
 import LocalAtmIcon from "@mui/icons-material/LocalAtm";
 import BarChartIcon from "@mui/icons-material/BarChart";
 import MailOutlineIcon from "@mui/icons-material/MailOutline";
@@ -43,7 +44,7 @@ export default function sidebar() {
             </Link>
             <Link to="/products" className="link">
               <li className="sidebarListItem">
-                <PersonOutlineIcon className="sidebarIcon" />
+                <StorefrontIcon className="sidebarIcon" />
                 Products
               </li>
             </Link>

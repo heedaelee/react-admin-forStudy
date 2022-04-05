@@ -54,7 +54,7 @@ export default function ProductList() {
               <button className="productListEdit">Edit</button>
             </Link>
             <DeleteOutline
-              className="pruductListDelete"
+              className="productListDelete"
               onClick={() => handleDelete(params.row.id)}
             />
           </>
