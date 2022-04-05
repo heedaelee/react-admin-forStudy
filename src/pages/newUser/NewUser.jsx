@@ -11,6 +11,10 @@ export default function NewUser() {
           <input type="text" placeholder="john" />
         </div>
         <div className="newUserItem">
+          <label>Full Name</label>
+          <input type="text" placeholder="john Smith" />
+        </div>
+        <div className="newUserItem">
           <label>Email</label>
           <input type="text" placeholder="john@gmail.com" />
         </div>
@@ -43,6 +47,9 @@ export default function NewUser() {
             <option value={"yes"}>yes</option>
             <option value={"no"}>no</option>
           </select>
+        </div>
+        <div className="newUserItem">
+          <button className="userCreateButton">Create</button>
         </div>
       </form>
     </div>

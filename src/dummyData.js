@@ -48,3 +48,5 @@ export const userData = [
     "Active User": 8011,
   },
 ];
+
+export const productRows = [];
