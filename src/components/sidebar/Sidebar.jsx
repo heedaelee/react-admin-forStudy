@@ -36,7 +36,7 @@ export default function sidebar() {
         <div className="sidebarMenu">
           <h3 className="sidebarTitle">Quick</h3>
           <ul className="sidebarList">
-            <Link to="/users" className="link">
+            <Link to="/users" className="link"> 
               <li className="sidebarListItem">
                 <PersonOutlineIcon className="sidebarIcon" />
                 Users
